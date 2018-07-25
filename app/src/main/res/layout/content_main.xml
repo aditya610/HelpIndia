@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:background="@color/background">
+        <LinearLayout
+            android:padding="5dp"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    >
+
+                        <Button
+                            android:id="@+id/btnngo"
+                            android:backgroundTint="@color/colorPrimaryDark"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="NGO"
+                            />
+
+                        <Button
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/colorPrimaryDark"
+                            android:id="@+id/btnadoption"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="ADOPTION"
+                            tools:layout_editor_absoluteX="183dp"
+                            tools:layout_editor_absoluteY="4dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                        <Button
+                            android:layout_weight="1"
+                            android:id="@+id/btnarmy"
+                            android:layout_width="0dp"
+                            android:backgroundTint="@color/colorPrimaryDark"
+                            android:layout_height="wrap_content"
+                            android:text="ARMY"
+                            />
+
+                        <Button
+                            android:layout_weight="1"
+                            android:id="@+id/btnblooddonation"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="blood donation"
+                            android:backgroundTint="@color/colorPrimaryDark"
+                            tools:layout_editor_absoluteX="183dp"
+                            tools:layout_editor_absoluteY="4dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                        <Button
+                            android:layout_weight="1"
+                            android:id="@+id/btnworkshop"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/colorPrimaryDark"
+                            android:text="event"
+                            />
+
+                        <Button
+                            android:layout_weight="1"
+                            android:id="@+id/btnmore"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="More"
+                            android:backgroundTint="@color/colorPrimaryDark"
+                            tools:layout_editor_absoluteX="183dp"
+                            tools:layout_editor_absoluteY="4dp" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="News"
+                    android:textSize="30dp"
+                    android:paddingLeft="5dp"
+                    android:layout_margin="5dp"
+                    android:textColor="#000000"
+                    android:background="#ffffff"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_margin="5dp"
+                    android:background="#ffffff"
+                    android:id="@+id/rvmain"
+                    android:layout_width="368dp"
+                    android:layout_height="495dp"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="8dp" />
+
+        </LinearLayout>
+
+
+</FrameLayout>

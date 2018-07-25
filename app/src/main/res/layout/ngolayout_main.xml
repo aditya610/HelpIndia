@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/background">
+
+    <ImageView
+        android:paddingTop="5dp"
+        android:id="@+id/ivngo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".3"
+        android:layout_marginBottom="50dp"
+        app:srcCompat="@drawable/ngo"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="40dp"
+        android:background="#ffffff"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight=".7"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="20dp"
+            android:textColor="#000000"
+            android:background="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tvtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="40dp"
+        android:background="#ffffff"
+    />
+
+    <TextView
+        android:id="@+id/tvcause"
+        android:layout_width="match_parent"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="59dp"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tvcity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="78dp"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="50dp"
+        android:background="#ffffff"/>
+    </LinearLayout>
+</LinearLayout>

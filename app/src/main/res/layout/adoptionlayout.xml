@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/ivngo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".3"
+        android:background="#ffffff"
+        app:srcCompat="@drawable/adoption"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="40dp"
+        android:layout_marginBottom="50dp"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight=".7"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:background="#ffffff"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="20dp" />
+
+        <TextView
+            android:id="@+id/tvtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="TextView"
+            android:textSize="17dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <TextView
+            android:id="@+id/tvcity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:background="#ffffff"
+            android:layout_marginBottom="50dp"
+            android:textSize="17dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="78dp" />
+    </LinearLayout>
+</LinearLayout>
