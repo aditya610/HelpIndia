@@ -12,10 +12,11 @@ data class Workshop(
         val purpose:String,
         val city: String,
         val timedate:String,
-        val reason: String,
-val event:String
+        val reason: String
 
-)
+){
+    constructor():this("","","","","")
+}
 
 
 
@@ -34,9 +35,7 @@ fun generaterandomworshop():ArrayList<Workshop>
     var r= Random()
     for(i in 1..10)
     {
-        worshop.add(Workshop(worshopname[r.nextInt(3)], "topic: "+workshoppurpose[r.nextInt(3)],
-                "city:"+worshopcity[r.nextInt(4)], worshoptimedate[r.nextInt(2)],
-                "  Reason to join:\n"+workshopreason[r.nextInt(2)], eventname[r.nextInt(3)]))
+
     }
     return worshop
 }

@@ -14,7 +14,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="DONATE"
+        android:background="@drawable/rounded"
+        android:minHeight="30dp"
+        android:minWidth="120dp"
         android:backgroundTint="#3e8ae8"
+        android:layout_margin="10dp"
         tools:layout_editor_absoluteX="280dp"
         tools:layout_editor_absoluteY="1dp"
         />

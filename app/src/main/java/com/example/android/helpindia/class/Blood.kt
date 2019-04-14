@@ -6,7 +6,9 @@ import java.util.*
 data class Blood(val campname:String,
                  val place:String,
                  val date:String,
-                 val time:String)
+                 val time:String){
+    constructor():this("","","","")
+}
 
 
 

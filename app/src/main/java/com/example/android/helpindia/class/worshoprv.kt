@@ -25,10 +25,10 @@ return workshop.size   }
 
     override fun onBindViewHolder(holder: viewholder, position: Int) {
          holder.name11.text=workshop[position].name
-        holder.city.text=workshop[position].city
-        holder.purpose.text=workshop[position].purpose
+        holder.city.text="City: "+workshop[position].city
+        holder.purpose.text="Topic: "+workshop[position].purpose
         holder.timedate.text=workshop[position].timedate
-        holder.reason.text=workshop[position].reason
+        holder.reason.text="  Reason to join:\n"+workshop[position].reason
 
     }
 

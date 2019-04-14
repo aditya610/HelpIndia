@@ -2,10 +2,14 @@ package com.example.android.helpindia.`class`
 
 import java.util.*
 
-data class News(val ID:Int,
-        val new1:String,
+data class News(val phone:String,
+                val emailid:String,
+                val name: String,
+                val new1:String,
                 val heading:String
-                )
+                ){
+    constructor():this("","","","","")
+}
 
 val newname= arrayOf("Bacon ipsum dolor amet sirloin cupim kevin pancetta," +
         " turducken jerky pig strip steak short ribs boudin beef ribs prosciutto brisket turkey." +
@@ -26,7 +30,7 @@ fun generaterandon():ArrayList<News>
     var  r= Random();
     for(i in 1..10)
     {
-        cust.add(News(r.nextInt(10),newname[r.nextInt(2)], headingname[r.nextInt(6)]))
+      //  cust.add(News(r.nextInt(10),newname[r.nextInt(2)], headingname[r.nextInt(6)]))
     }
 return cust
 }

@@ -15,12 +15,13 @@ class Main4Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.army_main)
         army= generaterandonarmy()
-        val adapter=armyrv(army)
+
         rvarmy.layoutManager=LinearLayoutManager(
                 this,
                 RecyclerView.VERTICAL,
                 false
         )
+        val adapter=armyrv(army)
         rvarmy.adapter=adapter
     }
 }

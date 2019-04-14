@@ -7,7 +7,7 @@ import com.example.android.helpindia.`class`.News
 
 class newstable{
 
-    companion object {
+   /* companion object {
         val TABLE_NAME = "news"
         // primary key to be set before auto increment
         val CMD_CREATE_TABLE = """
@@ -60,6 +60,6 @@ class newstable{
         val ID="id"
         val HEADING="heading"
         val INFO="info"
-    }
+    }*/
 
 }

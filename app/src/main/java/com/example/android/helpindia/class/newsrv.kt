@@ -10,8 +10,8 @@ import android.widget.TextView
 import com.example.android.helpindia.R
 import kotlinx.android.synthetic.main.secondhalf_main.view.*
 
-class newsrv(val new1:ArrayList<News>,
-             val ontaskdelete:(task:News) -> Unit):RecyclerView.Adapter<newsrv.viewholder>()
+class newsrv(val new1:ArrayList<News>
+             ):RecyclerView.Adapter<newsrv.viewholder>()
 {/*    override fun getItemViewType(position: Int): Int {
     return when (position) {
                     0 -> 0
@@ -39,7 +39,7 @@ class newsrv(val new1:ArrayList<News>,
 
     holder.new1.text = new1[position].new1
     holder.heading.text = new1[position].heading
-        holder.itemView.setOnLongClickListener({
+       /* holder.itemView.setOnLongClickListener({
             AlertDialog.Builder(holder.itemView.context)
                     .setTitle("delete news")
                     .setMessage("do yo really want to delete this news")
@@ -50,7 +50,7 @@ class newsrv(val new1:ArrayList<News>,
                         _,_->Unit
                     }).show()
             true
-        })
+        })*/
    }
 
     class viewholder(val itemview:View):RecyclerView.ViewHolder(itemview)

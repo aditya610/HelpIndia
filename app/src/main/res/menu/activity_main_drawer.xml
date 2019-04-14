@@ -25,11 +25,11 @@
     <item>
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/login"
 
                 android:title="Login" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/signin"
 
                 android:title="Sign up" />
         </menu>

@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".Main5Activity">
+    tools:context=".Main5Activity"
+    android:background="@color/background">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rvblood"
+        android:background="@color/background"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="8dp"
