@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+        android:layout_width="match_parent"
+    android:background="@color/background"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivityBloodDonation"
+            android:orientation="vertical">
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/tvsignname"
+                    android:layout_width="match_parent"
+                    android:layout_weight=".3"
+                    android:layout_height="wrap_content"
+                    android:text="Heading"
+                    android:textSize="17dp"/>
+
+                <EditText
+                    android:id="@+id/etbdname"
+                    android:layout_width="wrap_content"
+                    android:layout_weight=".7"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="(Blood donation,organ donation)"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"/>
+
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:textSize="17dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Address" />
+
+            <EditText
+                android:id="@+id/etbdcity"
+                android:layout_width="wrap_content"
+                android:hint="enter city name"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:inputType="text" />
+
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:textSize="17dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Date" />
+
+            <EditText
+                android:id="@+id/etbddate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="(format:dd/mm/yyyy)"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:textSize="17dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Time" />
+
+            <EditText
+                android:id="@+id/etbdtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="(format:hh:mm)"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"/>
+
+
+
+
+
+
+
+            <Button
+                android:background="@drawable/rounded"
+                android:backgroundTint="#ffb2f3"
+                android:width="100dp"
+                android:id="@+id/btnbd"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="Publish" />
+
+        </LinearLayout>
+    </ScrollView>

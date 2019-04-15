@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "716147349704",
+    "firebase_url": "https://helpindia-cefc8.firebaseio.com",
+    "project_id": "helpindia-cefc8",
+    "storage_bucket": "helpindia-cefc8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716147349704:android:e9af02c3547577a4",
+        "android_client_info": {
+          "package_name": "com.example.android.helpindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716147349704-gdjmnq83bfsf3off6btcm1lir3g1vdom.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.helpindia",
+            "certificate_hash": "3e52b106a1d0b8b65c185508a1f48da78907ffdc"
+          }
+        },
+        {
+          "client_id": "716147349704-tjgg9g2qp0sjiouick6rpi2qimlsu5kt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj2CdmTXjl0XVwnY9OA4zZUri2YYnORvY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716147349704-tjgg9g2qp0sjiouick6rpi2qimlsu5kt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

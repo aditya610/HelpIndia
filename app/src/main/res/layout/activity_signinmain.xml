@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/flsign"
+    android:background="@color/background"
+    tools:context=".signin.signinmain">
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_gravity="center">
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="individual"
+    android:minWidth="100dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/rounded"
+    android:backgroundTint="#ffb2f3"
+    android:id="@+id/btnind"
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NGO"
+        android:backgroundTint="#ffb2f3"
+        android:background="@drawable/rounded"
+        android:minWidth="100dp"
+        android:layout_margin="10dp"
+        android:id="@+id/btnngo"/>
+   </LinearLayout>
+</FrameLayout>
